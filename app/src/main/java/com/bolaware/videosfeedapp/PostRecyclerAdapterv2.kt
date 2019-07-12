@@ -9,7 +9,7 @@ import com.bolaware.videosfeedapp.customviews.VideoPlayerViewHolder
 import com.bolaware.videosfeedapp.model.MediaObject
 import com.bolaware.videosfeedapp.model.Post
 import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.post_list_item.view.*
+import kotlinx.android.synthetic.main.post_list_item2.view.*
 
 class PostRecyclerAdapterv2 (var posts : MutableList<Post>, val marginBottom : Int) : RecyclerView.Adapter<VideoPlayerViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VideoPlayerViewHolder {
