@@ -1,0 +1,55 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.bolaware.videosfeedapp.customviews.VideoPlayerRecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/postRV"
+            tools:listitem="@layout/post_list_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.bolaware.videosfeedapp.HomeFragment"/>
+
+    <LinearLayout
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="30dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:textSize="15sp"
+                android:text="Your Feed"
+                app:fontFamily="@font/gt_walsheim_medium"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/white"
+                android:src="@drawable/ic_dot_24dp"
+                android:textStyle="bold"
+                android:layout_width="10dp"
+                android:layout_height="10dp"/>
+
+        <TextView
+                android:textSize="15sp"
+                android:text="Popular"
+                app:fontFamily="@font/gt_walsheim_bold"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
